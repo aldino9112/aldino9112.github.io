@@ -1,0 +1,68 @@
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+  
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+.link {
+    text-decoration: none;
+    color: white;
+    
+
+}
+.nav li:hover {
+    background-color: gray;
+    padding: 20px;
+}
+.background {
+    background-image: url(img/homeBanner.jpg);
+    height: 900px;
+    margin-top: -34px;
+}
+.background1 {
+    background-image: url(img/banner1.jpg);
+    height: 900px;
+    margin-top: -34px;
+}
+.background2 {
+    background-image: url(img/banner2.jpg);
+    background-size: 100%;
+    padding-bottom: 400px;
+    margin-top: -34px;
+}
+.background3 {
+    background-image: url(img/banner3.jpg);
+    height: 900px;
+    margin-top: -34px;
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    padding-top: 250px;
+    font-size: 50px;
+}
+.textarea {
+    width: 600px;
+    padding-left: 80px;
+}
+.readmore {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.readmore:hover {
+    color: grey;
+}
+
+body {
+    margin: 0px;
+}
